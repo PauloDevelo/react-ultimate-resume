@@ -329,7 +329,8 @@
             "codingYears": 20,
             "codingReason": "I started coding when I was 5 years old with a Commodore PC10-III in GW-Basic ... The combination software and computer is a wonderful tool that can solve a lot of our issues only if we know what we want them to do. I believe it can make a world better and more sustainable.",
             "searchState": "openOpportunities",
-            "experienceYears": 15
+            "experienceYears": 15,
+            "remoteExperienceYears": 3
         },
         "interestedBy": "Web technologies, IOT, Utility systems, Electronics, Embedded systems"
     },

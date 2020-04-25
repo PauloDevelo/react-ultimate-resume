@@ -5,6 +5,7 @@ export const mapJsonResumeToBasicData = (jsonResume) => {
         currentCity: ((city || countryCode) && { name: `${city}${countryCode && `, ${countryCode}`}` }) ?? {},
         summary: jsonResume?.basics?.summary,
         experienceYears: jsonResume?.specific?.work?.experienceYears,
+        remoteExperienceYears: jsonResume?.specific?.work?.remoteExperienceYears,
         studiesLevel: jsonResume?.specific?.education?.studiesLevel,
         codingYears: jsonResume?.specific?.work?.codingYears,
         codingReason: jsonResume?.specific?.work?.codingReason,
@@ -25,6 +26,7 @@ export const mapBasicsDataToJsonResume = (data) => ({
             personalDescription: data.personalDescription
         },
         work: {
+            remoteExperienceYears: data.remoteExperienceYears,
             experienceYears: data.experienceYears,
             codingYears: data.codingYears,
             codingReason: data.codingReason,

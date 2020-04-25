@@ -113,6 +113,7 @@ work|codingYears|Number|How long have you been coding (in years)? Example: 5
 work|codingReason|String|What motivates you to wake up every day to code?
 work|searchState|"activelySearching" \| "openOpportunities" \| "dreamjobOnly" \| "notSearching"   |Are you open to new job opportunities?
 work|experienceYears|Number|How many years of professional experience do you have?
+work|remoteExperienceYears|Number|How many years of remote professional experience do you have?
 sound|embedUrl|String|Your favorite Spotify playlist.
 interestedBy| |String|What languages do you want to learn? Example: Angular and Vue.js
 

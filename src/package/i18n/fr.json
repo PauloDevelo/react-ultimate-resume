@@ -10,6 +10,7 @@
     "Basics.Back.CodingYears.value": "{codingYears, plural, one {# année} other {# années}} de code (toutes expérience, projets personnels ou pro confondus...)",
     "Basics.Back.ExperienceYear.noExperience": "Pas (encore!) d'expérience",
     "Basics.Back.ExperienceYear.value": "{experienceYears, plural, one {# année} other {# années}} d'expérience",
+    "Basics.Back.RemoteExperienceYear.value": " (dont {remoteExperienceYears, plural, one {# année} other {# années} } à distance)",
     "Basics.Back.StudiesLevel.Title": "Années d'Études",
     "Basics.Back.StudiesLevel.noHigherEducation": "Je n'ai fait d'études supérieures",
     "Basics.Back.StudiesLevel.value": "{studiesLevel, plural, one {# année} other {# années}} d'études supérieures",

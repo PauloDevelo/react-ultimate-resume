@@ -28,6 +28,7 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
     const {
         currentCity: { name: currentCityName },
         experienceYears,
+        remoteExperienceYears,
         contractTypes,
         studiesLevel,
         codingYears,
@@ -76,7 +77,7 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
                 hide: !experienceYears && !existsAndNotEmpty(contractTypes) && !existsAndNotEmpty(searchState),
                 value: (
                     <>
-                        <ExperienceYears experienceYears={experienceYears} />
+                        <ExperienceYears experienceYears={experienceYears} remoteExperienceYears={remoteExperienceYears} />
                         <br />
                         <ContractType contractTypes={contractTypes} />
                         <br />
@@ -105,6 +106,7 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
         [
             currentCityName,
             experienceYears,
+            remoteExperienceYears,
             contractTypes,
             studiesLevel,
             codingYears,
