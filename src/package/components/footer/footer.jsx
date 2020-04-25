@@ -41,13 +41,13 @@ const FooterComponent = () => {
                         title={
                             <FormattedMessage
                                 id="Footer.github.tooltip"
-                                defaultMessage="Create your own developer profile!"
+                                defaultMessage="Paul Torruella Github profile"
                             />
                         }
                     >
                         <a
                             className={classes.githubLink}
-                            href="https://github.com/welovedevs/developer-profile"
+                            href="https://github.com/PauloDevelo"
                             target="_bank"
                             rel="noreferer noopener"
                         >
@@ -68,12 +68,12 @@ const FooterComponent = () => {
             <ShareLinks />
             <Tooltip
                 title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Create your own developer profile!" />
+                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Paul Torruella Github profile" />
                 }
             >
                 <a
                     className={classes.githubLink}
-                    href="https://github.com/welovedevs/developer-profile"
+                    href="https://github.com/PauloDevelo"
                     target="_bank"
                     rel="noreferer noopener"
                 >
