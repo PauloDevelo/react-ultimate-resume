@@ -30,12 +30,12 @@
     "work": [
         {
             "name": "Ecogium",
-            "position": "Fullstack developer",
+            "position": "Full Stack developer",
             "website": "http://www.ecogium.fr/",
             "startDate": "2018-05-01",
-            "summary": "Development and launching a productive application to help to manage asset's maintenance. Support/Development on Aquadvanced Energy",
+            "summary": "-Development and launching a productive application to help to manage asset's maintenance.\n-Support/Development on Aquadvanced Energy",
             "location": "Between Auckland New-Zealand and Paris, France (Westbound)",
-            "highlights": ["Re-started the company, got up to speed with web technologies, great remote experience, React, Typescript, NodeJS, Angular, C#, ...."]
+            "highlights": ["Re-started the company", "got up to speed with web technologies", "great remote experience", "React", "Typescript", "NodeJS", "Angular", "C#"]
         },
         {
             "name": "Derceto Ltd",
@@ -45,7 +45,7 @@
             "endDate": "2018-04-30",
             "summary": "Development of Aquadvanced Energy and support for its first deployments, C# .NET, MSSQL, EF, AngularJS",
             "location": "Auckland, New Zealand",
-            "highlights": ["C#, Exciting project that is a success story worldwide"]
+            "highlights": ["C#, Exciting project that is a success story worldwide in the water distribution"]
         },
         {
             "name": "Ecogium",
@@ -54,7 +54,7 @@
             "startDate": "2013-05-01",
             "endDate": "2015-12-01",
             "summary": "Development of 2 devices based on Atmel micro-controller",
-            "location": "Somewhere in between Paris, France and Auckland, New Zealand (Westbound)",
+            "location": "Somewhere in between Paris and Auckland, NZ (Westbound)",
             "highlights": ["C++ for embedded systems, IOT, Remote experience"]
         },
         {
@@ -319,9 +319,8 @@
         },
         "dreamJob": {
             "locations": [
-                { "name": "Squamish, Canada" },
-                { "name": "Grenoble, France" },
-                { "name": "Annecy, France" }
+              { "name": "Paris, France" },
+              { "name": "Vancouver, Canada" }
             ],
             "remoteFrequency": "regularly"
         },
@@ -329,11 +328,11 @@
         "work": {
             "contractTypes": ["permanent"],
             "codingYears": 20,
-            "codingReason": "I started coding when I was 5 years old with a commodore PC10-III in GW-Basic ... The combination software and computer is a wonderful tool that can solve quite a lot of our issues only if we know what we want them to do. I believe it can make a world better and more sustainable.",
-            "searchState": "activelySearching",
+            "codingReason": "I started coding when I was 5 years old with a Commodore PC10-III in GW-Basic ... The combination software and computer is a wonderful tool that can solve a lot of our issues only if we know what we want them to do. I believe it can make a world better and more sustainable.",
+            "searchState": "openOpportunities",
             "experienceYears": 15
         },
-        "interestedBy": "Web technologies, IOT, Electronic, Embedded systems"
+        "interestedBy": "Web technologies, IOT, Utility systems, Electronics, Embedded systems"
     },
     "resumeCustomization": {
         "imageHeader": {
@@ -353,7 +352,7 @@
         ],
         "fields": {
             "work": {
-                "customDateFormat": "YYYY"
+                "customDateFormat": "MMM YYYY"
             }
         },
         "theme": {
