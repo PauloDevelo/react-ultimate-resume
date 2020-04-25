@@ -30,6 +30,7 @@
     "work": [
         {
             "name": "Ecogium",
+            "isRemote":true,
             "position": "Full Stack developer",
             "website": "https://maintenance.ecogium.fr/zMaXkI2s",
             "startDate": "2018-05-01",
@@ -58,6 +59,7 @@
         },
         {
             "name": "Ecogium",
+            "isRemote":true,
             "position": "Java Software Engineer",
             "website": "https://www.viamichelin.fr/web/Trafic",
             "startDate": "2009-02-01",

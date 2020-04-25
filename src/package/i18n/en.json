@@ -117,6 +117,7 @@
     "Experience.front.title.since": "Since {year}",
     "Experience.front.title.stillEmployed": "Still employed",
     "Experiences.backCard.dates.since": "Since {year}",
+    "Experiences.backCard.remote.badge": "Remote",
     "Experiences.editDialog.companyName.placeholder": "Example : WeLoveDevs.com (facultatif)",
     "Experiences.editDialog.companyName.title": "Company name",
     "Experiences.editDialog.description.placeholder": "Your skills and technologies at this position? What contract were you working under (Fulltime, Apprenticeship)? (30 chars.min)",

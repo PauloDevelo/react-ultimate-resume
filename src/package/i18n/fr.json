@@ -117,6 +117,7 @@
     "Experience.front.title.since": "Depuis {year}",
     "Experience.front.title.stillEmployed": "Toujours en poste",
     "Experiences.backCard.dates.since": "Depuis {year}",
+    "Experiences.backCard.remote.badge": "Remote",
     "Experiences.editDialog.companyName.placeholder": "Exemple : WeLoveDevs.com (facultatif)",
     "Experiences.editDialog.companyName.title": "Nom de l'entreprise",
     "Experiences.editDialog.description.placeholder": "Vos compétences et technologies utilisées pour ce poste - Quel contrat aviez-vous (CDI, Alternance...) ? (30 car. mini)",

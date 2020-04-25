@@ -19,6 +19,7 @@ import { SIDES } from '../../../../commons/profile_card/profile_card_side/side';
 import { styles } from './experiences_front_styles';
 import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 import { NoDataButton } from '../../../../commons/no_data_button/no_data_button';
+import { Badge } from '../../../../commons/badge/badge';
 
 const useStyles = createUseStyles(styles);
 
@@ -37,6 +38,9 @@ const ExperiencesFrontComponent = ({ data, handleAddButtonClick }) => {
     const title = useMemo(() => {
         const builder = [];
         const firstExperience = data.work?.[0];
+        if (firstExperience.isRemote) {
+            builder.push(<Badge id={'Experiences.backCard.remote.badge'} defaultMessage={'Remote'}/>);
+        }
         if (firstExperience?.position) {
             builder.push(firstExperience.position);
         }
