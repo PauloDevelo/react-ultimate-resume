@@ -1,0 +1,405 @@
+{
+    "basics": {
+        "name": "Paul Torruella",
+        "label": "Full Stack développeur",
+        "picture": "http://resume.ecogium.fr/images/20180630_151312.jpg",
+        "email": "paul.torruella@gmail.com",
+        "phone": "+33 6 07 71 27 94",
+        "website": "http://johndoe.com",
+        "summary": "Full Stack développeur, du capteur jusqu'à l'information affichée dans votre navigateur, il y a beaucoup à dire.",
+        "location": {
+            "address": "12; rue des Roses",
+            "postalCode": "70100",
+            "city": "Arc-lès-gray",
+            "countryCode": "France",
+            "region": "Franche-Comté"
+        },
+        "profiles": [
+            {
+                "network": "Skype",
+                "username": "paulodevelo",
+                "url": "https://join.skype.com/invite/hkbkFd2SNRpS"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "paul-torruella",
+                "url": "https://www.linkedin.com/in/paul-torruella/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Ecogium",
+            "isRemote":true,
+            "position": "Full Stack développeur",
+            "website": "https://maintenance.ecogium.fr/zMaXkI2s",
+            "startDate": "2018-05-01",
+            "summary": "-Développement et lancement d'une application de production visant à aider les propriétaires de voilier à gérer la maintenance de leur bien.\n-Développement et support pour Aquadvanced Energy",
+            "location": "Entre Auckland en Nouvelle Zélande et Paris, France",
+            "highlights": ["Re-démarrage de la compagnie Ecogium", "Monte en compétence sur les technologies web", "React", "Typescript", "NodeJS", "Angular", "C#"]
+        },
+        {
+            "name": "Derceto Ltd",
+            "position": "Backend développeur",
+            "website": "https://www.suezsmartsolutions.com/en/solutions/aquadvanced/aquadvanced-energy-23-en/",
+            "startDate": "2016-05-01",
+            "endDate": "2018-04-30",
+            "summary": "Développements sur le produit Aquadvanced Energy et support pendant les premiers déploiements, C# .NET, MSSQL, EF, AngularJS",
+            "location": "Auckland, Nouvelle Zélande",
+            "highlights": ["C#, Projet qui connait un succès mondial dans le domaine de la distribution de l'eau du réseau principal"]
+        },
+        {
+            "name": "Ecogium",
+            "position": "Ingénieur Logiciel Embarqué C++",
+            "startDate": "2013-05-01",
+            "endDate": "2015-12-01",
+            "summary": "Développement de 2 appareils basés sur microcontrôleur Atmel",
+            "location": "Entre Paris et Auckland, Nouvelle Zélande",
+            "highlights": ["C++ pour systèmes embarqués", "IOT"]
+        },
+        {
+            "name": "Ecogium",
+            "isRemote":true,
+            "position": "Ingénieur Logiciel Java",
+            "website": "https://www.viamichelin.fr/web/Trafic",
+            "startDate": "2009-02-01",
+            "endDate": "2013-05-01",
+            "summary": "Développement d'un système d'information trafic pour le site Viamichelin",
+            "location": "Paris, France",
+            "highlights": ["Java"]
+        },
+        {
+            "name": "Ecogium",
+            "position": "Ingénieur Logiciel C#",
+            "website": "https://www.engie-ineo.fr/en/offer/our-offers/smart-city/",
+            "startDate": "2011-02-01",
+            "endDate": "2011-06-01",
+            "summary": "Developpement pour les municipalitées d'une application pour la gestion de la lumière urbaine",
+            "location": "Paris, France",
+            "highlights": ["C#", "MVVM trainer", "Smart City"]
+        },
+        {
+            "name": "Apside",
+            "position": "Ingénieur Logiciel C#, Spécialiste SIG",
+            "website": "https://www.cpcu.fr/nous-connaitre/",
+            "startDate": "2008",
+            "endDate": "2009",
+            "summary": "Développement d'une application pour la gestion d'incident et de la maintenance du réseau de vapeur d'eau de la ville de Paris (CPCU)",
+            "location": "Paris, France",
+            "highlights": ["C#", "GIS StarAPIC"]
+        },
+        {
+            "name": "Apside",
+            "position": "Ingénieur Logiciel Java",
+            "website": "http://www.extende.com/",
+            "startDate": "2006",
+            "endDate": "2007",
+            "summary": "Développement pour le logiciel CIVA, un simulateur pour les capteurs de contrôle non destructif (NDT sensor)",
+            "location": "Saclay, France",
+            "highlights": ["Java"]
+        },
+        {
+            "name": "Magellium",
+            "position": "Ingénieur Logiciel C#, C++, Java",
+            "website": "https://www.magellium.com/",
+            "startDate": "2005",
+            "endDate": "2006",
+            "summary": "-Développement d'une interface pour un model de simulation de notre atmosphère dans le visible et le proche infra rouge.\n-Développements en C++ d'une librairie basée sur GeoConcept pour gérer des forces armées sur le terrain.\n-Développements en C# pour la détection de nuage dans les images satellites",
+            "location": "Toulouse, France",
+            "highlights": ["C++, C#, Java, Java3D"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Université Paul Sabatier Toulouse III",
+            "area": "Télédétection - Imagerie numerique",
+            "studyType": "Master Professionel 2",
+            "startDate": "2004",
+            "endDate": "2005"
+        },
+        {
+            "institution": "Université Paul Sabatier Toulouse III",
+            "area": "Génie logiciel",
+            "studyType": "Master Professionel 1",
+            "startDate": "2001",
+            "endDate": "2004"
+        },
+        {
+            "institution": "Université Paul Sabatier Toulouse III",
+            "area": "Mesures Physiques",
+            "studyType": "Diplôme Universitaire de Technologie",
+            "startDate": "1999",
+            "endDate": "2001"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Most Valuable Player Award",
+            "date": "2016-12",
+            "awarder": "Derceto Ltd",
+            "summary": ""
+        }
+    ],
+    "skills": [
+        {
+          "name": "React",
+          "index": 0,
+          "value": 91,
+          "id": "cfd8504d-2611-4700-b106-80a197b70e14"
+        },
+        {
+          "name": "C#",
+          "index": 1,
+          "value": 91,
+          "id": "e8dceae8-9e24-45a2-b938-ceb618ae8b59"
+        },
+        {
+          "name": "Typescript",
+          "index": 2,
+          "value": 50,
+          "id": "21e6dfe1-21cf-46d4-9b05-2efa529d7b45"
+        },
+        {
+          "name": "NodeJS",
+          "index": 3,
+          "value": 50,
+          "id": "23723e94-220f-43da-9192-890101ddfd38"
+        },
+        {
+          "name": "Express",
+          "index": 4,
+          "value": 50,
+          "id": "861a2d78-7ed9-43bb-966b-876b1490a045"
+        },
+        {
+          "name": "Dot-net",
+          "index": 5,
+          "value": 50,
+          "id": "38d0dc10-04a3-4018-96c1-c2a4a06e7117"
+        },
+        {
+          "name": "C",
+          "index": 6,
+          "value": 50,
+          "id": "02a96ea7-4d73-4c88-89b2-e25a1d957e24"
+        },
+        {
+          "name": "C++",
+          "index": 7,
+          "value": 50,
+          "id": "18e6124d-a6cd-4926-9aaf-1f8bd4686055"
+        },
+        {
+          "name": "Angular",
+          "index": 8,
+          "value": 50,
+          "id": "334b7bfe-b95e-4a7e-89b0-c8503561808d"
+        },
+        {
+          "name": "Java",
+          "index": 9,
+          "value": 50,
+          "id": "65194a00-9155-456a-92c9-48d60c978144"
+        },
+        {
+          "name": "Mocha",
+          "index": 10,
+          "value": 50,
+          "id": "63b7d4c0-034b-4d20-9bce-9686fd6f31fb"
+        },
+        {
+          "name": "Jest",
+          "index": 11,
+          "value": 50,
+          "id": "6617496a-012a-4288-9dc2-214f5d08e42a"
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "index": 12,
+          "value": 50,
+          "id": "41bdcc0a-29a6-4694-a378-3a04f33fac70"
+        },
+        {
+          "name": "Mysql",
+          "index": 13,
+          "value": 50,
+          "id": "c218fe06-c4c5-4703-84a0-12bf155670f7"
+        },
+        {
+          "name": "MongoDB",
+          "index": 14,
+          "value": 50,
+          "id": "3c71fb84-733a-4518-a8de-d51de2681056"
+        },
+        {
+          "name": "Git",
+          "index": 15,
+          "value": 50,
+          "id": "ba0434b2-46bf-420d-801c-a263fbd36c0b"
+        },
+        {
+          "name": "Github",
+          "index": 16,
+          "value": 50,
+          "id": "92f0ab00-4205-428b-86c5-88bb3c4cf7aa"
+        },
+        {
+          "name": "Bootstrap",
+          "index": 17,
+          "value": 50,
+          "id": "0f3ff5ab-fcd5-4c15-9405-ee0be4fee6a1"
+        },
+        {
+          "name": "Google Cloud",
+          "index": 18,
+          "value": 50,
+          "id": "b7fc5585-ac6c-4e55-8a8a-b8e16d1bd8bd"
+        }
+      ],
+    "languages": [{ "language": "Français", "value": 100, "fluency": "Native speaker" }, { "language": "Anglais", "value": 85, "fluency": "Advanced Med/High" }],
+    "interests": [
+        {
+            "name": "Programmation",
+            "gifUrl": "https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"
+        },
+        {
+            "name": "Electronique",
+            "gifUrl": "https://media.giphy.com/media/elDC4UUuvx7eFoUFUl/giphy.gif"
+        },
+        {
+            "name": "Escalade",
+            "gifUrl": "https://media.giphy.com/media/8vnjJZSKFYUa13gGri/giphy.gif"
+        },
+        {
+            "name": "Voile",
+            "gifUrl": "https://media.giphy.com/media/xTiIzALnnBSw2B76JG/giphy.gif"
+        },
+        {
+            "name": "Sports nature",
+            "gifUrl": "https://media.giphy.com/media/yrFrXTTTcHIY0/giphy.gif"
+        }
+    ],
+    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "projects": [
+        {
+            "name": "Développment d'une application PWA pour la gestion de la maintenance d'un bien",
+            "description": "Progressive Web application (PWA) développée avec React/Typescript et qui permet à un propriétaire de gérer et suivre les tâches de maintenance associées à un bien tel qu'un voilier, une maison ou un camping car.",
+            "link": "https://maintenance.ecogium.fr/zMaXkI2s",
+            "date": "2018",
+            "images": [
+                { "name": "capture 1", "url": "http://resume.ecogium.fr/images/capture01.jpg" },
+                { "name": "capture 2", "url": "http://resume.ecogium.fr/images/capture02.jpg" }
+              ]
+        },
+        {
+            "name": "Développement d'un gestionnaire de voilier",
+            "description": "C'était un projet électronique ambitieux qui visait à implémenter un appareil multi-fonction pour un voilier.\nCe projet m'a pris un temps considérable pour à la fin l'abandonner.\nLa raison principale de cet echec était à cause d'un manque de tests unitaires et une mauvaise gestion du code source ... Un jour peut être je le resortirai des cartons.",
+            "date": "2016",
+            "images": [
+                { "name": "capture 1", "url": "http://resume.ecogium.fr/images/boat_monitor_01.jpg" },
+                { "name": "capture 2", "url": "http://resume.ecogium.fr/images/boat_monitor_02.jpg" },
+                { "name": "capture 2", "url": "http://resume.ecogium.fr/images/boat_monitor_03.jpg" }
+              ]
+        },
+        {
+            "name": "Développement d'un barographe pour navigateur",
+            "description": "Project Arduino qui vise à construire un barographe pour navigateurs",
+            "link": "https://github.com/PauloDevelo/Barograph",
+            "date": "2014",
+            "images": [
+                { "name": "capture 1", "url": "https://www.arbutus.ecogium.fr/wp-content/uploads/DSC3232.jpg" },
+                { "name": "capture 2", "url": "https://www.arbutus.ecogium.fr/wp-content/uploads/IMG_1072.jpg" }
+              ]
+        }
+        
+    ],
+    "specific": {
+        "basics": {
+            "visaSponsorship": false,
+            "personalDescription": "Je suis un de ceux qui pense que seul notre imagination à des limites. La vie est excitante parce que nous avons été imaginatifs et audacieux dans nos idées."
+        },
+        "dreamJob": {
+            "locations": [
+              { "name": "Paris, France" },
+              { "name": "Vancouver, Canada" }
+            ],
+            "remoteFrequency": "regularly"
+        },
+        "education": { "studiesLevel": 5 },
+        "work": {
+            "contractTypes": ["permanent"],
+            "codingYears": 20,
+            "codingReason": "J'ai commencé à coder lorsque j'avais 7 ans avec un Commodore PC10-III en GW-Basic ... La combinaison du logiciel et de l'ordinateur est un formidable outil qui peut résoudre un grand nombre de nos problèmes encore faut-il savoir ce que nous voulons qu'ils fassent. Je pense que la technologie (et sa régulation) peut aider à faire un monde meilleur et plus soutenable.",
+            "searchState": "openOpportunities",
+            "experienceYears": 15,
+            "remoteExperienceYears": 3
+        },
+        "interestedBy": "Technologies Web, IOT, Electronique, Systèmes embarqués"
+    },
+    "resumeCustomization": {
+        "imageHeader": {
+            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "alt": "Default Banner"
+        },
+        "cardsOrder": [
+            { "type": "basics", "variant": 4 },
+            { "type": "projects", "variant": 4 },
+            { "type": "skills", "variant": 0 },
+            { "type": "dreamjob", "variant": 4 },
+            { "type": "experiences", "variant": 4 },
+            { "type": "studies", "variant": 4 },
+            { "type": "gifs", "variant": 0 },
+            { "type": "interestedBy", "variant": 3 },
+            { "type": "language", "variant": 4 }
+        ],
+        "fields": {
+            "work": {
+                "customDateFormat": "MM/YYYY"
+            }
+        },
+        "theme": {
+            "palette": {
+              "primary": {
+                "50": "#e8f0f0",
+                "100": "#d1e1e1",
+                "200": "#a4c2c4",
+                "300": "#76a4a6",
+                "400": "#498589",
+                "500": "#1b676b",
+                "600": "#165256",
+                "700": "#103e40",
+                "800": "#0b292b",
+                "900": "#051515",
+                "contrastDefaultColor": "light"
+              },
+              "secondary": {
+                "50": "#eef4ed",
+                "100": "#dceada",
+                "200": "#b9d5b6",
+                "300": "#97bf91",
+                "400": "#74aa6d",
+                "500": "#519548",
+                "600": "#41773a",
+                "700": "#31592b",
+                "800": "#203c1d",
+                "900": "#101e0e",
+                "contrastDefaultColor": "light"
+              },
+              "tertiary": {
+                "50": "#f3f9e9",
+                "100": "#e7f3d3",
+                "200": "#cfe7a8",
+                "300": "#b8dc7c",
+                "400": "#a0d051",
+                "500": "#88c425",
+                "600": "#6d9d1e",
+                "700": "#527616",
+                "800": "#364e0f",
+                "900": "#1b2707",
+                "contrastDefaultColor": "light"
+              }
+            }
+          }
+    }
+}
+

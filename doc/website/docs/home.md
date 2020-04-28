@@ -69,7 +69,8 @@ yarn start
 
 Replace the default JSON Resume with yours
 ```
-/src/data/json_stub.json
+/src/data/json_stub_en.json
+/src/data/json_stub_fr.json
 ```
 
 ### Deploy on you own server

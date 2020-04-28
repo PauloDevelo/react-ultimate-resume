@@ -37,10 +37,16 @@ const messages = {
     fr,
     tr
 };
+
+// eslint-disable-next-line no-undef
+const { language } = navigator;
+const shortLanguage = language.split(/[-_]/)[0]; // language without region code
+const defaultLocale = Object.keys(messages).includes(shortLanguage) ? shortLanguage : 'en';
+
 const useStyles = createUseStyles(styles);
 
 const DEFAULT_OPTIONS = Object.freeze({
-    locale: 'en',
+    locale: defaultLocale,
     customization: {
         imageHeader: {
             url: 'https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp',

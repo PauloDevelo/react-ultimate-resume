@@ -8,11 +8,22 @@ import cloneDeep from 'lodash/cloneDeep';
 import download from 'downloadjs';
 import { Button } from '@welovedevs/ui';
 
-import JsonStub from './data/json_stub.json';
+import JsonStubFr from './data/json_stub_fr.json';
+import JsonStubEn from './data/json_stub_en.json';
 import DeveloperProfile from './package';
 import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
 
 import { styles } from './app_styles';
+
+const IntlJsonStubs = {
+    en: JsonStubEn,
+    fr: JsonStubFr
+};
+
+// eslint-disable-next-line no-undef
+const { language } = navigator;
+const shortLanguage = language.split(/[-_]/)[0]; // language without region code
+const JsonStub = Object.keys(IntlJsonStubs).includes(shortLanguage) ? IntlJsonStubs[shortLanguage] : IntlJsonStubs.en;
 
 const useStyles = createUseStyles(styles);
 const mergeFunction = (objValue, srcValue, key) => {

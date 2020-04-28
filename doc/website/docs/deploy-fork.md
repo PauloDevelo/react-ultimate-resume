@@ -29,7 +29,7 @@ I highly recommend working on a separate branch with you own data.
 
 `git checkout -b my_new_branch`
 
-We provide the JsonResume to the component in `App.jsx`. Feel free to edit the `src/data/json_stub.json` or to provide your own component via an API or such.
+We provide the JsonResume to the component in `App.jsx`. Feel free to edit the `src/data/json_stub_en.json` and `src/data/json_stub_fr.json` or to provide your own component via an API or such.
 
 Test it out :
 
