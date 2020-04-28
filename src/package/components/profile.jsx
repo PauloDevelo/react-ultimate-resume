@@ -1,6 +1,7 @@
-import React, { useCallback, useMemo, useReducer, useState } from 'react';
+import React, { useCallback, useMemo, useReducer, useState, useEffect } from 'react';
 import { injectIntl, IntlProvider } from 'react-intl';
 import { createUseStyles, ThemeProvider } from 'react-jss';
+import { useMatomo } from '@datapunt/matomo-tracker-react';
 
 import mergeWith from 'lodash/mergeWith';
 import cloneDeep from 'lodash/cloneDeep';
@@ -71,6 +72,7 @@ const DeveloperProfileComponent = ({
     additionalNodes,
     classes: receivedGlobalClasses = {}
 }) => {
+    const { trackPageView } = useMatomo();
     const classes = useStyles(styles);
     const { apiKeys, endpoints } = options;
     const [isEditing, setIsEditing] = useState(false);
@@ -119,6 +121,10 @@ const DeveloperProfileComponent = ({
     );
 
     const side = useMemo(() => (isEditing && SIDES.BACK) || options?.side, [options, isEditing]);
+
+    useEffect(() => {
+        trackPageView();
+    }, []);
 
     return (
         <div className={classes.container}>

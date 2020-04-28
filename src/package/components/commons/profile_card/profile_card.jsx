@@ -1,5 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useReducer, useRef, useState } from 'react';
 
+import { useMatomo } from '@datapunt/matomo-tracker-react';
+
 import { createUseStyles, useTheme } from 'react-jss';
 import { animated, config, useTransition } from 'react-spring';
 
@@ -46,6 +48,9 @@ const ProfileCardComponent = ({
     isComplete = true,
     side: sideProps
 }) => {
+    const { trackEvent } = useMatomo();
+    const markTime = useRef();
+
     const changeSideTimeout = useRef();
     const { mode } = useContext(DeveloperProfileContext);
 
@@ -70,8 +75,7 @@ const ProfileCardComponent = ({
         getProfileCardInitialState({
             variant,
             side: sideProps || SIDES.FRONT
-        })
-    );
+        }));
     const { side, hasDialogOpened } = state;
 
     useEffect(() => {
@@ -89,6 +93,24 @@ const ProfileCardComponent = ({
             side: sideProps || SIDES.FRONT
         });
     }, [sideProps]);
+
+    useEffect(() => {
+        if (side === SIDES.BACK) {
+            markTime.current = new Date();
+        }
+
+        if (side === SIDES.FRONT && markTime.current !== undefined) {
+            const currDate = new Date();
+            const diffTime = Math.abs(currDate - markTime.current);
+            const event = {
+                category: 'engagement',
+                action: 'view',
+                name: kind,
+                value: diffTime / 1000
+            };
+            trackEvent(event);
+        }
+    }, [side]);
 
     const setChangingSides = useCallback(
         (value) => {
