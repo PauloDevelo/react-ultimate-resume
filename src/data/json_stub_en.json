@@ -282,6 +282,7 @@
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
+            "mnemo": "PWA",
             "name": "Development of an Asset Maintenance Management Application",
             "description": "Progressive Web application (PWA) developed with React/Typescript that allows an asset owner to manage the different maintenance task related to an asset.",
             "link": "https://maintenance.ecogium.fr/zMaXkI2s",
@@ -292,6 +293,7 @@
               ]
         },
         {
+            "mnemo": "BoatMonitor",
             "name": "Development of a boat monitor",
             "description": "It was an ambitious electronic project that was aiming to implement a multipurpose device for sailboat.\nThis project took me an enormous amount of time to end up failing.\nThe main cause of this failure was the lack of unit test and source version management... May be one day I will attempt it again.",
             "date": "2016",
@@ -302,6 +304,7 @@
               ]
         },
         {
+            "mnemo": "Barograph",
             "name": "Development a barograph for sailor",
             "description": "Arduino project that aims to build a barograph for sailors",
             "link": "https://github.com/PauloDevelo/Barograph",

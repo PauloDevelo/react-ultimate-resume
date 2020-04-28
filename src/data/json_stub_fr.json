@@ -282,6 +282,7 @@
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
+            "mnemo": "PWA",
             "name": "Développment d'une application PWA pour la gestion de la maintenance d'un bien",
             "description": "Progressive Web application (PWA) développée avec React/Typescript et qui permet à un propriétaire de gérer et suivre les tâches de maintenance associées à un bien tel qu'un voilier, une maison ou un camping car.",
             "link": "https://maintenance.ecogium.fr/zMaXkI2s",
@@ -292,6 +293,7 @@
               ]
         },
         {
+            "mnemo": "BoatMonitor",
             "name": "Développement d'un gestionnaire de voilier",
             "description": "C'était un projet électronique ambitieux qui visait à implémenter un appareil multi-fonction pour un voilier.\nCe projet m'a pris un temps considérable pour à la fin l'abandonner.\nLa raison principale de cet echec était à cause d'un manque de tests unitaires et une mauvaise gestion du code source ... Un jour peut être je le resortirai des cartons.",
             "date": "2016",
@@ -302,6 +304,7 @@
               ]
         },
         {
+            "mnemo": "Barograph",
             "name": "Développement d'un barographe pour navigateur",
             "description": "Project Arduino qui vise à construire un barographe pour navigateurs",
             "link": "https://github.com/PauloDevelo/Barograph",

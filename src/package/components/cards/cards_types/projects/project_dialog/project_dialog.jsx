@@ -1,4 +1,6 @@
-import React, { useCallback, useContext, useMemo } from 'react';
+import React, { useCallback, useContext, useMemo, useRef, useEffect } from 'react';
+
+import { useMatomo } from '@datapunt/matomo-tracker-react';
 
 import { FormattedMessage, useIntl } from 'react-intl';
 import { createUseStyles } from 'react-jss';
@@ -21,6 +23,9 @@ const useStyles = createUseStyles(styles);
 
 const DEFAULT_OBJECT = {};
 const ProjectDialogComponent = ({ open, onClose, data: project, isEditing }) => {
+    const { trackEvent } = useMatomo();
+    const markTime = useRef();
+
     const classes = useStyles();
 
     const { formatMessage } = useIntl();
@@ -36,6 +41,24 @@ const ProjectDialogComponent = ({ open, onClose, data: project, isEditing }) => 
     );
 
     const validator = useMemo(() => ProjectValidator(formatMessage), []);
+
+    useEffect(() => {
+        if (open === true) {
+            markTime.current = new Date();
+        }
+
+        if (open === false && markTime.current !== undefined) {
+            const currDate = new Date();
+            const diffTime = Math.abs(currDate - markTime.current);
+            const event = {
+                category: 'engagement',
+                action: 'view',
+                name: project.mnemo,
+                value: diffTime / 1000
+            };
+            trackEvent(event);
+        }
+    }, [open]);
 
     return (
         <EditDialog
