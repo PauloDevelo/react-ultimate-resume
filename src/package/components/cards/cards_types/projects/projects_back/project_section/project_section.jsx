@@ -1,5 +1,6 @@
 import React, { useCallback, useMemo } from 'react';
 
+import { useMatomo } from '@datapunt/matomo-tracker-react';
 import { FormattedMessage } from 'react-intl';
 import { createUseStyles, useTheme } from 'react-jss';
 import { Typography } from '@welovedevs/ui';
@@ -51,18 +52,28 @@ const ProjectSectionContainer = ({ project, cardVariant, onDelete, index }) => {
 };
 
 const Details = ({ project, index, onDelete, classes }) => {
+    const { trackEvent } = useMatomo();
     const theme = useTheme();
     const [isEditing] = useIsEditing();
     const [variant] = useCardVariant();
 
     const color = getColorsFromCardVariant(theme, variant).backColor;
 
+    const onClickProjectLink = useCallback(() => {
+        const event = {
+            category: 'engagement',
+            action: 'click_link',
+            name: project.mnemo
+        };
+        trackEvent(event);
+    }, [project]);
+
     return (
         <div className={classes.details}>
             {project.link && (
                 <div className={classes.detail}>
                     <AnimatedUnderlinedButton color={color}>
-                        <a className={classes.link} href={project.link} rel="noopener noreferrer" target="_blank">
+                        <a className={classes.link} href={project.link} rel="noopener noreferrer" target="_blank" onClick={onClickProjectLink}>
                             <LinkIcon className={classes.detailIcon} />
                             <Typography customClasses={{ container: classes.detailTypography }} color="primary">
                                 <FormattedMessage id="Project.section.link" defaultMessage="Link" />

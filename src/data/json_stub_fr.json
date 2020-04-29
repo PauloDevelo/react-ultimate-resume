@@ -29,6 +29,7 @@
     },
     "work": [
         {
+            "mnemo": "ExperienceFullstack",
             "name": "Ecogium",
             "isRemote":true,
             "position": "Full Stack développeur",
@@ -39,6 +40,7 @@
             "highlights": ["Re-démarrage de la compagnie Ecogium", "Monte en compétence sur les technologies web", "React", "Typescript", "NodeJS", "Angular", "C#"]
         },
         {
+            "mnemo": "ExperienceDerceto",
             "name": "Derceto Ltd",
             "position": "Backend développeur",
             "website": "https://www.suezsmartsolutions.com/en/solutions/aquadvanced/aquadvanced-energy-23-en/",
@@ -49,6 +51,7 @@
             "highlights": ["C#, Projet qui connait un succès mondial dans le domaine de la distribution de l'eau du réseau principal"]
         },
         {
+            "mnemo": "ExperienceEmbeddedSystems",
             "name": "Ecogium",
             "position": "Ingénieur Logiciel Embarqué C++",
             "startDate": "2013-05-01",
@@ -58,6 +61,7 @@
             "highlights": ["C++ pour systèmes embarqués", "IOT"]
         },
         {
+            "mnemo": "ExperienceViamichelin",
             "name": "Ecogium",
             "isRemote":true,
             "position": "Ingénieur Logiciel Java",
@@ -69,6 +73,7 @@
             "highlights": ["Java"]
         },
         {
+            "mnemo": "ExperienceSinovia",
             "name": "Ecogium",
             "position": "Ingénieur Logiciel C#",
             "website": "https://www.engie-ineo.fr/en/offer/our-offers/smart-city/",
@@ -79,6 +84,7 @@
             "highlights": ["C#", "MVVM trainer", "Smart City"]
         },
         {
+            "mnemo": "ExperienceCPCU",
             "name": "Apside",
             "position": "Ingénieur Logiciel C#, Spécialiste SIG",
             "website": "https://www.cpcu.fr/nous-connaitre/",
@@ -89,6 +95,7 @@
             "highlights": ["C#", "GIS StarAPIC"]
         },
         {
+            "mnemo": "ExperienceCEA",
             "name": "Apside",
             "position": "Ingénieur Logiciel Java",
             "website": "http://www.extende.com/",
@@ -99,6 +106,7 @@
             "highlights": ["Java"]
         },
         {
+            "mnemo": "ExperienceMagellium",
             "name": "Magellium",
             "position": "Ingénieur Logiciel C#, C++, Java",
             "website": "https://www.magellium.com/",

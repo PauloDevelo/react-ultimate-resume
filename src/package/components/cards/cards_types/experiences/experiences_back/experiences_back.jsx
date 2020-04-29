@@ -1,4 +1,6 @@
-import React, { Fragment, memo, useMemo } from 'react';
+import React, { Fragment, memo, useMemo, useCallback } from 'react';
+
+import { useMatomo } from '@datapunt/matomo-tracker-react';
 
 import { useIntl, FormattedMessage } from 'react-intl';
 import { createUseStyles, useTheme } from 'react-jss';
@@ -28,10 +30,21 @@ import { useCustomization } from '../../../../hooks/use_customization';
 const useStyles = createUseStyles(styles);
 
 const ExperienceContent = ({ experience, variant, classes }) => {
+    const { trackEvent } = useMatomo();
     const { formatMessage } = useIntl();
     const [buildTitle] = useAdditionalNodes('cards.experiences.back.experience.content.buildTitle', null);
     const [customization] = useCustomization();
-    const { id, name, summary, place, position, website, isRemote } = experience;
+    const { id, name, summary, place, position, website, isRemote, mnemo } = experience;
+
+    const onClickExperienceLink = useCallback(() => {
+        const event = {
+            category: 'engagement',
+            action: 'click_link',
+            name: mnemo
+        };
+        trackEvent(event);
+    }, [mnemo]);
+
     const dateString = useMemo(() => {
         const displayFormat = customization?.fields?.work?.customDateFormat || 'MMM YYYY';
         if (!experience.endDate) {
@@ -79,7 +92,7 @@ const ExperienceContent = ({ experience, variant, classes }) => {
             {website && (
                 <div className={classes.detail}>
                 <AnimatedUnderlinedButton color={color}>
-                    <a className={classes.link} href={website} rel="noopener noreferrer" target="_blank">
+                    <a className={classes.link} href={website} rel="noopener noreferrer" target="_blank" onClick={onClickExperienceLink}>
                         <LinkIcon className={classes.detailIcon} />
                         <Typography customClasses={{ container: classes.detailTypography }} color="primary">
                             <FormattedMessage id="Project.section.link" defaultMessage="Link" />
