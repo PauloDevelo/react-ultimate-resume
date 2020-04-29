@@ -13,7 +13,6 @@ export const mapWorkFromJsonResume = (jsonResume) => ({
             placeId: work.placeId
         },
         stillEmployed: !work.endDate,
-        isRemote: work.isRemote,
         index
     }))
 });
